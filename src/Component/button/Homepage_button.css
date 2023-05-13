@@ -1,0 +1,28 @@
+.view{
+    border: 1px solid #2c6959;
+    font-weight: 700px;
+    min-width: 94px;
+    color: #2c6959;
+    height: 31px;
+    border-radius: 20px;
+    font-family: 'Poppins-Regular';
+    background-color: white;
+    font-size: 12.5px;
+    
+}
+.view_button{
+    position:relative;
+    bottom:20%;
+}
+@media screen and (min-device-width: 741px) and (max-device-width: 1090px){
+    .view{
+    width:110px;
+    height:35px;
+    font-size: 15px;
+    
+
+
+    }
+    
+
+}

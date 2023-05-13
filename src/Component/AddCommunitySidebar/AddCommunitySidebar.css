@@ -1,0 +1,244 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+
+
+
+.addCommunitysidebar .btn {
+  position: relative;
+  top: 15px;
+  left: 45px;
+  height: 45px;
+  text-align: center;
+  background: #2c6959;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: left 0.4s ease;
+  color: white;
+}
+.addCommunitysidebar .btn:hover {
+  background-color: #2c6959;
+}
+
+.addCommunitysidebar .sideBarBtn {
+  left: 260px;
+  visibility: hidden;
+}
+.addCommunitysidebar.btn span {
+  color: white;
+  font-size: 28px;
+  line-height: 45px;
+}
+.addCommunitysidebar.btn.click span:before {
+  content: "\f1d";
+  font-size: 80px;
+  position: relative;
+  font-weight: 800;
+  bottom: 30px;
+}
+.addCommunitysidebar .faBars {
+  margin-bottom: 20px;
+
+  margin-left: -2px;
+}
+.addCommunitysidebar .sidebar {
+
+  width: 250px;
+  height: auto;
+  left: -250px;
+  background: white;
+  color: black;
+  margin-top: -42px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: left 0.4s ease;
+  border-radius: 8px;
+}
+.addCommunitysidebar .sidebar.show {
+  left: 17px;
+  height: auto;
+  border-radius: 8px;
+}
+.addCommunitysidebar .sidebar .text {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 65px;
+  margin-left: 15%;
+  background: white;
+  letter-spacing: 1px;
+}
+.addCommunitysidebar input.checkBoxAdCmnty {
+  height: 20px;
+  width: 20px;
+}
+.addCommunitysidebar nav ul {
+  background: white;
+  color: black;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+.addCommunitysidebar nav ul li {
+  line-height: 35px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.addCommunitysidebar nav ul li:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.addCommunitysidebar nav ul li a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 5px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+.addCommunitysidebar nav ul li.active a {
+  color: black;
+  background: white;
+}
+.addCommunitysidebar nav ul li a:hover {
+  background: white;
+  color: black;
+}
+.addCommunitysidebar nav ul ul {
+  position: static;
+  display: none;
+}
+.addCommunitysidebar nav ul .feat-show.show {
+  display: block;
+}
+.addCommunitysidebar nav ul .serv-show.show1 {
+  display: block;
+}
+.addCommunitysidebar nav ul ul li {
+  line-height: 42px;
+  border-top: none;
+}
+.addCommunitysidebar nav ul ul li a {
+  font-size: 17px;
+  color: #e6e6e6;
+  padding-left: 80px;
+}
+.addCommunitysidebar nav ul li.active ul li a {
+  color: #e6e6e6;
+  background: white;
+  border-left-color: transparent;
+}
+.addCommunitysidebar nav ul ul li a:hover {
+  color: black !important;
+  background: white !important;
+}
+.addCommunitysidebar nav ul li a span {
+  position: absolute;
+  color: black;
+  top: 42%;
+  margin-left: 10px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  transition: transform 0.4s;
+}
+.addCommunitysidebar h6.AddCmntyMenuText {
+  margin-left: 8px;
+  color: #aaa;
+}
+.addCommunitysidebar nav ul li a span.rotate {
+  transform: translateY(-50%) rotate(-180deg);
+}
+.addCommunitysidebar button.BtnMore {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #2c6959;
+}
+.addCommunitysidebar .btn.click span:before {
+  content: "\f1d";
+  font-size: 80px;
+  position: relative;
+  font-weight: 800;
+  bottom: 30px;
+}
+.addCommunitysidebar input[type="checkbox"] {
+  accent-color: #2c6959;
+}
+.addCommunitysidebar .texthideShow {
+  visibility: hidden;
+}
+.addCommunitysidebar button.ClearAllAddCmntybtn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color:  #2c6959;
+}
+@media screen and (max-width: 600px) {
+  .btn.click {
+    visibility: visible;
+    z-index: 15;
+  }
+  .addCommunitysidebar .btn {
+    top: 0px;
+    margin-bottom: 20px;
+    margin-left: -36px;
+  }
+  .addCommunitysidebar .sidebar.show {
+    z-index: 2;
+  }
+  .addCommunitysidebar .btn.click svg.faBars {
+    opacity: 0;
+  }
+  .addCommunitysidebar nav.sidebar.show {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 0px;
+  }
+  .addCommunitysidebar  .texthideShow {
+    visibility: visible;
+    position: absolute;
+    bottom: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    left: 60px;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 820px) {
+  .addCommunitysidebar .btn {
+    position: relative;
+    top: 0px;
+    margin-bottom: 15px;
+    left:0px;
+}
+.addCommunitysidebar .texthideShow {
+  visibility: visible;
+  position: absolute;
+  bottom: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  left: 60px;
+  color: black;
+}
+.addCommunitysidebar .btn.click {
+  visibility: visible;
+  z-index: 15;
+}
+.addCommunitysidebar .sidebar.show {
+  z-index: 2;
+}
+.addCommunitysidebar .btn.click svg.faBars {
+  opacity: 0;
+}
+.addCommunitysidebar nav.sidebar.show {
+  max-height: 500px;
+  overflow-y: auto;
+  margin-top: 0px;
+}
+}
+

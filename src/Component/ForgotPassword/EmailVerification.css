@@ -1,0 +1,21 @@
+.verifiedEmail{
+  margin-bottom: 9px;
+  width: 100%;
+}
+
+.forgetPasswordForm{
+  width: 100%;
+  display: flex ;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.forgetPasswordForm .subbtncont {
+  margin-top: 0%;
+}
+
+@media only screen and (max-width : 600px) {
+  .forgetPasswordForm{
+    margin-top: 20px;
+  }
+}

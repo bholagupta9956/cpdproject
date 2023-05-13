@@ -1,0 +1,102 @@
+#certification {
+  border-bottom: 2px solid #e0e0e0;
+  color: #2c6959;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins-SemiBold";
+  padding-bottom: 10px;
+  margin-top: 12px;
+  padding: 10px 14px;
+}
+
+.certification_index {
+  border: 1.8px solid rgb(209, 208, 208);
+  border-radius: 10px;
+  padding: 10px 0px;
+}
+.designprogram_box {
+  justify-content: space-between;
+  display: flex;
+  margin-left: 13px;
+  align-items: center;
+  font-family: "Poppins-Regular";
+  margin-bottom: 15px;
+  color: var(--black);
+}
+
+.career_foundry {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.career_foundry h6 {
+  font-weight: 700;
+  color: black;
+  color: var(--black);
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+.career_foundry h5 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 1%;
+  color: var(--black);
+  padding-top: 0%;
+  font-family: Poppins-SemiBold;
+}
+
+.days_box {
+   margin-top: 4px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+.days_box img {
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+.days_box h6 {
+  font-size: 10px;
+  margin-right: 5px;
+}
+.design_details {
+  border-bottom: 1px solid gainsboro;
+  min-height: 80px;
+  margin-bottom: 5px;
+ padding: 12px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.design_profile {
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+.design_profilepic img {
+  width: 50px;
+  height: 50px;
+}
+.design_name {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+.design_name h6 , .design_name span {
+  font-size: 12px;
+  color: var(--gray);
+  font-family: 'Poppins-Regular';
+  margin-bottom: 3px;
+}
+
+.design_name h4 {
+  font-weight: 600;
+  margin-bottom: 4px;
+  padding-left: 0%;
+  font-family: "Poppins-Regular";
+  color: var(--black);
+  font-size: 14px;
+}

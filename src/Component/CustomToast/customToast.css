@@ -1,0 +1,87 @@
+.notification-container {
+  font-size: 14px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10000;
+}
+
+.top-right {
+  top: 12px;
+  right: 12px;
+  transition: transform 0.6s ease-in-out;
+  animation: toast-in-right 0.7s;
+}
+
+.bottom-right {
+  bottom: 12px;
+  right: 12px;
+  transition: transform 0.6s ease-in-out;
+  animation: toast-in-right 0.7s;
+}
+
+.top-left {
+  top: 12px;
+  left: 12px;
+  transition: transform 0.6s ease-in;
+  animation: toast-in-left 0.7s;
+}
+
+.bottom-left {
+  bottom: 12px;
+  left: 12px;
+  transition: transform 0.6s ease-in;
+  animation: toast-in-left 0.7s;
+}
+
+.notification-toast {
+  width: 320px;
+  background: #49a254;
+  color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 15px 14px;
+  border-radius: 6px;
+}
+
+.notification-toast button {
+  position: absolute;
+  top: 15%;
+  right: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-family: "Poppins-Regular";
+}
+
+.notification-title {
+  margin-bottom: 6px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: "Poppins-SemiBold";
+}
+
+.notification-message {
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-family: "Poppins-Regular";
+  line-height: 17px;
+}
+
+.notification-details {
+  margin-left: 12px;
+}
+
+/* here we are writing animation code for use */
+
+@keyframes toast-in-right {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
